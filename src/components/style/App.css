@@ -1,0 +1,139 @@
+.form-preview-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+}
+
+
+.form-container h2 {
+  color: #2fc18cdc;
+  font-family: Anton , sans-serif;
+  font-style: italic;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.card-container h2 {
+  color: #2fc18cdc;
+  font-family: Anton , sans-serif;
+  font-style: italic;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+
+header {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #062e1f, rgb(7, 8, 49));
+
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  padding-left: 10px;
+  width: 200px;
+}
+
+
+.allCards {
+  color: white;
+  font-size: 28px;
+  font-style: italic;
+  margin: auto;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.burguer {
+  display: none;
+}
+
+.filterMenu {
+  align-items: center;
+  background-color: rgb(3, 107, 82);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  font-weight: 600;
+  height: 40px;
+  justify-content: space-around;
+  margin: auto;
+  width: 40%;
+}
+
+.filter-input {
+  background-color: rgb(3, 107, 82);
+  border: 2px solid white;
+  color: white;
+}
+
+.filter-input::placeholder {
+  color: white;
+}
+
+
+.savedCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.cardAfterFilter {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cardAfterFilter .buttonRemove {
+  background-color: red;
+  border: 0.5px solid black;
+  border-radius: 7px;
+  color: white;
+  font-weight: 500;
+  height: 30px;
+  margin-bottom: 1px;
+}
+
+.buttonRemove:hover {
+  background-color: rgb(255, 69, 69);
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+@media screen and ( max-width : 768px ) {
+
+  .burguer {
+    color: red;
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -25px;
+  }
+
+  .filter-title {
+    display: none;
+  }
+
+  .filterMenu {
+    background-color: rgb(3, 107, 82);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+}

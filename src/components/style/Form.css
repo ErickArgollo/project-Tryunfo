@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap') ;
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+
+.cardName-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.input-name {
+  background-color: greenyellow;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 20px;
+}
+
+.cardDescription-container, .cardRarity-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.textarea-description {
+  background-color: greenyellow;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.attr-container {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.urlPath-container {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.attrInput {
+  background-color: greenyellow;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 100%;
+  width: 40%;
+}
+
+.input-attr1-title {
+  background-color: red;
+  border-radius: 3px;
+  color: white;
+  height: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+.input-attr2-title {
+  background-color: blue;
+  border-radius: 3px;
+  color: white;
+  height: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+.input-attr3-title {
+  background-color: green;
+  border-radius: 3px;
+  color: white;
+  height: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+#inputFile {
+  display: none;
+}
+
+.rarity-input {
+  background-color: greenyellow;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 30px;
+}
+
+.hasTrunfo-save-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonSave:disabled {
+  background-color: gray;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+}
+
+.buttonSave:enabled {
+  background-color: rgb(139, 207, 38);
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+}
+
+.buttonSave:hover:enabled {
+  background-color: rgb(146, 216, 40);
+  border: 1px solid black;
+  cursor: pointer;
+}
