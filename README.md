@@ -4,7 +4,7 @@
 #### <p>Esse projeto tem como objetivo desenvolver uma aplicação utilizando React, simulando o jogo de cartas SuperTrunfo, nessa aplicação é possível escolher o nome, a imagem, os atributos, marcar uma carta como superTrunfo, definir a raridadade da carta. Além de filtrar as cartas já salvas por nome, raridade ou superTrunfo! </p>
 
 ## Link para acessar o projeto
-### <b> <a href="https://projecttryunfo.vercel.app/">Trybe Tunes</a> </b> <br>
+### <b> <a href="https://projecttryunfo.vercel.app/">Tryunfo</a> </b> <br>
 
 ## Screenshot
 ![ScreenShot](https://github.com/ErickArgollo/project-Tryunfo/blob/main/Tryunfopreview.png)
